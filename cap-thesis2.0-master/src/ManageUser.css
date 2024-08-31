@@ -1,0 +1,70 @@
+.manage-user {
+    padding: 20px;
+    background-color: #f9f9f9;
+    min-height: calc(100vh - 100px); /* Adjust based on your header/footer height */
+  }
+  
+  .manage-user h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-table th, .user-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .user-table th {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    font-size: 16px;
+  }
+  
+  .user-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .user-table tr:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .user-table button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    margin: 2px;
+  }
+  
+  .user-table button:hover {
+    background-color: #2980b9;
+  }
+  
+  .user-table .edit-button {
+    background-color: #f39c12;
+  }
+  
+  .user-table .edit-button:hover {
+    background-color: #e67e22;
+  }
+  
+  .user-table .delete-button {
+    background-color: #e74c3c;
+  }
+  
+  .user-table .delete-button:hover {
+    background-color: #c0392b;
+  }
+  
